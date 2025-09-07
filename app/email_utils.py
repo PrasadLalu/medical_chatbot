@@ -272,7 +272,7 @@ def create_support_ticket_email(user_query: str,
     config = EMAIL_CONFIG
     msg = MIMEMultipart('alternative')
     msg['From'] = config['sender_email']
-    msg['To'] = 'sudhanshu@euron.one'  # Support email
+    msg['To'] = 'dayalarya2@gmail.com'  # Support email
     msg['Subject'] = f"MediChat Pro Support Ticket - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
     
     # Create HTML content
